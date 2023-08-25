@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Dashboard</title>
+</head>
+<body>
+    <h1>Dashboard</h1>
+    <div>
+        
+        <!-- Display the bar and lines plot as an image -->
+        <img src="data:image/png;base64,{{ plot_data }}" alt="Bar Plot">
+        <!-- Display the second plot -->
+        <img src="data:image/png;base64,{{ plot_data2 }}" alt="Bar Plot 2">
+        <!-- Additional HTML content goes here -->
+        <!-- Display the table -->
+    <div>
+    <div class="container">
+        <div class="row">
+            <!-- Display the first table -->
+            <div class="col">
+                {{ table_html | safe }}
+            </div>
+            
+            <!-- Display the second table -->
+            <div class="col">
+                {{ table_html2 | safe }}
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
