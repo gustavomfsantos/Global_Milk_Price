@@ -5,4 +5,5 @@ This project includes two main functions. A Scrap/Download code where public dat
   -	milk_global_price_Process.py defines paths used to save and load data and plots. Also defines the basic configurations for the model, such as how many periods to predict, how many lags to use, how many iterations to do when tuning the model and the Target and Date column name. In this file we execute the download and preprocessing the data and run a Pycaret pipeline that save plots generated in the training process, to check overfitting, plots and data with predictions on test set and real values, alongside with accuracy metric and also prediction for the next periods that did not happen yet.
   -	milk_global_price_DATA_SCRAP_AND_PREP.py and milk_global_price_PyCaret_Analysis.py are python files with functions imported to the main (milk_global_price_Process.py) file to execute the project
   -	requirements.txt contains the packages and versions needed for this project
+    
 The goal of this model is to help bring predictability in global milk prices to help producers adjust their production during high prices and buyers to stock when peaks are predicted
