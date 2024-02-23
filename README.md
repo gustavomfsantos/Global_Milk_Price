@@ -8,3 +8,5 @@ This project includes two main functions. A Scrap/Download code where public dat
   -	requirements.txt contains the packages and versions needed for this project.
     
 The goal of this model is to help bring predictability in global milk prices to help producers adjust their production during high prices and buyers to stock when peaks are predicted
+
+![Final Output with Metrics and Forecast values](final_output/Dashboard_print.png)
